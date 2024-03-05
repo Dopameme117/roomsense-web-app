@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+   
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App-header h1 {
+  font-size: 5rem; /* Adjust the size as you like */
+  color: white; /* White text */
+  text-align: center;
+  margin: 0; /* Remove default margin */
+}
+.App-enter {
+  font-size: 1.5rem; /* Large font size */
+  padding: 10px 20px; /* Padding for spacing around the text */
+  margin-top: 30px; /* Extra space above the button */
+  color: white; /* White text */
+  background-color: #298da9; /* A blue background */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.App-enter:hover {
+  background-color: #21a1f1; /* Slightly darker blue on hover */
 }
