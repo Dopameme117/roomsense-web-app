@@ -57,3 +57,18 @@
 .App-enter:hover {
   background-color: #21a1f1; /* Slightly darker blue on hover */
 }
+.return-home {
+  /* Add your styles here, e.g., */
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #b1b4b4;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor:pointer;
+  font-size: 1rem;
+}
+
+.return-home:hover {
+  background-color: #21a1f1;
+}
