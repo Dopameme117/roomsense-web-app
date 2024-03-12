@@ -72,3 +72,36 @@
 .return-home:hover {
   background-color: #21a1f1;
 }
+
+/* App.css */
+
+.MainPage {
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  height: 100vh; /* Take up the full viewport height */
+}
+
+.MainPage h1 {
+  position: absolute; /* Position absolutely within the MainPage div */
+  top: 0; /* Place at the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Offset the element by half its width to truly center it */
+  margin-top: 20px; /* Add some space from the top */
+}
+
+/* Continue with other styles... */
+
+
+/* Style for the radar container */
+.radar-container {
+  margin: auto;
+  position: relative;
+}
+
+/* Style for the return button */
+.return-home {
+  margin-top: 20px;
+}
